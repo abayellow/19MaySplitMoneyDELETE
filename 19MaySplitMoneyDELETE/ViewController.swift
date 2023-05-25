@@ -3,9 +3,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let mainTitel = UILabel(text: "\"Split Bill\"", fontName: "Avenir Next Bold", size: 40, tamic: false, color: .systemGreen)
+    let mainTitel = UILabel(text: "\"Split Bill\"", fontName: "Avenir Next Bold", size: 39, tamic: false, color: .systemGreen)
     let mainLogo = UIImageView(name: "rich")
-    let infoLogo = UILabel(text: "Enter the invoice money and click \"calculate\".", fontName: "Avenir Next Bold", size: 14, tamic: false, color: .black)
+    let infoLogo = UILabel(text: "Enter the invoice money and click \"calculate\".", fontName: "Avenir Next Bold", size: 13, tamic: false, color: .black)
     
     let totalBill = TotalBillView()
     let persons = PersonsView()
