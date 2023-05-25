@@ -174,3 +174,5 @@ class PercentCell: UICollectionViewCell {
     }
     
 }
+
+// some new text
